@@ -9,7 +9,20 @@
 <body>
     <h1>Formulář</h1>
     <form>
-        <input />
-    </form>   
+        <label>Email:<input type="email" name="eml" required /></label>
+        <br>
+        <label>Heslo:<input type="password" name="pas" required /></label>
+        <br>
+        <label>Datum:<input type="date" name="year" min="1930" max="2025" required /></label>
+        <br>
+        <label>Muž: <input type="radio" name="male" /></label>
+        <br>
+        <label>Žena <input type="radio" name="female" /></label>
+        <br>
+        <label>Jiné <input type="radio" name="other" /></label>
+        <br>
+        <input type="submit" value="odeslat" />
+        <br>
+    </form>
 </body>
 </html>
