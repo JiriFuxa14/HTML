@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #f0f0f0
+}
+
+#grid-container {
+    display: grid;
+    grid: repeat(7, 1fr)/repeat(7, 1fr);
+    gap: 5px;
+    width: 80vmin;
+    height: 80vmin;
+    background: #999;
+    padding: 5px;
+    border-radius: 8px
+}
+
+#grid-container>div {
+    background: #fff;
+    border-radius: 4px;
+    transition: .2s
+}
+
+.alive {
+    background: #000 !important
+}
